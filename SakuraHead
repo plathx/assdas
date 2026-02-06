@@ -69,8 +69,7 @@ try {
     $ThreadHandle = [Injector]::CreateRemoteThread($hProcess, [IntPtr]::Zero, 0, $LoadLibraryAddr, $AllocatedMemory, 0, [IntPtr]::Zero)
 
     if ($ThreadHandle -ne [IntPtr]::Zero) {
-        Write-Host "[***] DLL Injected Successfully!" -ForegroundColor Green
-        Write-Host "[***] F5 ON F6 OFF" -ForegroundColor Green
+        Write-Host "[***] DLL Injected Successfully F5 ON F6 OFF!" -ForegroundColor Green
     } else {
         throw "Remote thread creation failed (Error code: $([System.Runtime.InteropServices.Marshal]::GetLastWin32Error()))."
     }
