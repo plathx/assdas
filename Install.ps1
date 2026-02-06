@@ -1,5 +1,5 @@
 $ProcessName = "HD-Player"
-$DllPath = "C:\Program Files\BlueStacks_nxt\BstkVVM.dll"
+$DllPath = "C:\Users\woran\Downloads\SakuraHead.dll"
 
 if (-not (Test-Path $DllPath)) {
     Write-Host "[-] Error: DLL file not found at $DllPath" -ForegroundColor Red
