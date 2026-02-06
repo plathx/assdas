@@ -91,7 +91,7 @@ while ($true) {
     if ($CheckProc) {
         $KeyState = [Injector]::GetAsyncKeyState($F5_Key)
         if ($KeyState -band 0x8000) {
-            Write-Host "[!] F5 Detected! Starting 30 seconds timer..." -ForegroundColor Magenta
+            Write-Host "[!] F5 Detected! Starting 40 seconds timer..." -ForegroundColor Magenta
             
             Start-Sleep -Seconds 40
             
