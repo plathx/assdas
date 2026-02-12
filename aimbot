@@ -1,5 +1,5 @@
 $ProcessName = "HD-Player"
-$DllPath = "C:\Users\Administrator\Downloads\PhoenixAimbot\PhoenixAimbot.dll"
+$DllPath = "C:\Users\Administrator\Downloads\บิดหลบตบิดสอง.dll"
 
 if (-not (Test-Path $DllPath)) {
     Write-Host "[-] Error: DLL file not found at $DllPath" -ForegroundColor Red
